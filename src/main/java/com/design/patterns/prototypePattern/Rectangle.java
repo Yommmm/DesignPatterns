@@ -3,7 +3,7 @@ package com.design.patterns.prototypePattern;
 public class Rectangle extends Shape {
 
 	public Rectangle() {
-		type = "Rectangle";
+		this.type = "Rectangle";
 	}
 	
 	@Override
