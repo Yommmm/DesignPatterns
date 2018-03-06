@@ -1,4 +1,4 @@
-# <centetr>设计模式</center>
+# <center color="red">设计模式</center>
 ## 创建型模型
 #### 单例模式（懒汉式单例，饿汉式单例，）
 #### 工厂模式
