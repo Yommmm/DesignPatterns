@@ -10,8 +10,11 @@ public class ObserverPatternDemo {
 		new BinaryObserver(subject);
 
 		System.out.println("First state change: 15");
+		// 第一次状态改变
 		subject.setState(15);
+		
 		System.out.println("Second state change: 10");
+		// 第二次状态改变
 		subject.setState(10);
 	}
 	

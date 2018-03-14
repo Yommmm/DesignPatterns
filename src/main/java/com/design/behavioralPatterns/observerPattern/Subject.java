@@ -18,10 +18,12 @@ public class Subject {
 		this.notifyAllObservers();
 	}
 
+	// 观察者订阅方法
 	public void attach(Observer observer) {
 		this.observers.add(observer);
 	}
 
+	// 通知观察者状态被改变
 	public void notifyAllObservers() {
 		for (Observer observer : observers) {
 			observer.update();
