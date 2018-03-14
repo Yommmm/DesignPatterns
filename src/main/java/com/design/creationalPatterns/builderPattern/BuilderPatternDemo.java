@@ -3,6 +3,11 @@ package com.design.creationalPatterns.builderPattern;
 import com.design.creationalPatterns.builderPattern.meal.Meal;
 import com.design.creationalPatterns.builderPattern.meal.MealBuilder;
 
+/**
+ * 建造者模式
+ * @author 170186
+ *
+ */
 public class BuilderPatternDemo {
 
 	public static void main(String[] args) {

@@ -1,5 +1,10 @@
 package com.design.structuralPatterns.compositePattern;
 
+/**
+ * 组合模式
+ * @author 170186
+ *
+ */
 public class CompositePattern {
 
 	public static void main(String[] args) {

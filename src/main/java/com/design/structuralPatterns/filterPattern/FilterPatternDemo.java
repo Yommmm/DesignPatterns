@@ -3,6 +3,11 @@ package com.design.structuralPatterns.filterPattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 过滤器模式
+ * @author 170186
+ *
+ */
 public class FilterPatternDemo {
 
 	public static void main(String[] args) {

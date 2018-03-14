@@ -1,5 +1,10 @@
 package com.design.creationalPatterns.abstractFactory;
 
+/**
+ * 抽象工厂
+ * @author 170186
+ *
+ */
 public class AbstractFactoryDemo {
 
 	public static void main(String[] args) {

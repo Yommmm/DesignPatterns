@@ -1,5 +1,10 @@
 package com.design.structuralPatterns.decoratorPattern;
 
+/**
+ * 装饰器模式
+ * @author 170186
+ *
+ */
 public class DecoratorPatternDemo {
 
 	public static void main(String[] args) {

@@ -1,5 +1,10 @@
 package com.design.behavioralPatterns.observerPattern;
 
+/**
+ * 观察者模式
+ * @author 170186
+ *
+ */
 public class ObserverPatternDemo {
 
 	public static void main(String[] args) {

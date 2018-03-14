@@ -1,5 +1,10 @@
 package com.design.structuralPatterns.adapterPattern;
 
+/**
+ * 适配器模式
+ * @author 170186
+ *
+ */
 public class AdapterPatternDemo {
 	
 	public static void main(String[] args) {

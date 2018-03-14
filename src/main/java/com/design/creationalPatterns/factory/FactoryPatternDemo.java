@@ -1,5 +1,10 @@
 package com.design.creationalPatterns.factory;
 
+/**
+ * 工厂模式
+ * @author 170186
+ *
+ */
 public class FactoryPatternDemo {
 
 	public static void main(String[] args) {

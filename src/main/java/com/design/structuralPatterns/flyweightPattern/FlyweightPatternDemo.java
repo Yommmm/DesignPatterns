@@ -1,7 +1,7 @@
 package com.design.structuralPatterns.flyweightPattern;
 
 /**
- * {@link FlyweightPatternDemo}
+ * 享元模式
  * @author 170186
  *
  */

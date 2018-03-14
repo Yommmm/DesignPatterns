@@ -1,5 +1,10 @@
 package com.design.creationalPatterns.prototypePattern;
 
+/**
+ * 原型模式
+ * @author 170186
+ *
+ */
 public class PrototypePatternDemo {
 
 	public static void main(String[] args) {

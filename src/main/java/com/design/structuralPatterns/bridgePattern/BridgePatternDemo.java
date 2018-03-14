@@ -1,5 +1,10 @@
 package com.design.structuralPatterns.bridgePattern;
 
+/**
+ * 桥接模式
+ * @author 170186
+ *
+ */
 public class BridgePatternDemo {
 
 	public static void main(String[] args) {

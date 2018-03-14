@@ -1,5 +1,10 @@
 package com.design.structuralPatterns.proxyPattern;
 
+/**
+ * 代理模式
+ * @author 170186
+ *
+ */
 public class ProxyPatternDemo {
 
 	public static void main(String[] args) {
