@@ -7,5 +7,27 @@ package com.design.behavioralPatterns.commandPattern;
  *
  */
 public class CommandPatternDemo {
+	
+	public static void main(String[] args) {
+		
+		Stock stock = new Stock();
 
+	    BuyStock buyStockOrder = new BuyStock(stock);
+	    SellStock sellStockOrder = new SellStock(stock);
+
+	    // 输入命令
+	    Broker broker = new Broker();
+	    broker.takeOrder(buyStockOrder);
+	    broker.takeOrder(sellStockOrder);
+	    broker.takeOrder(buyStockOrder);
+
+	    // 执行命令
+	    broker.placeOrders();
+	    
+	    // 输入命令
+	    broker.takeOrder(buyStockOrder);
+	    // 执行命令
+	    broker.placeOrders();
+	}
+    
 }
