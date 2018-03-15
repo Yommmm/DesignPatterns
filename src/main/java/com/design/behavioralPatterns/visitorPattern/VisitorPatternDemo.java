@@ -10,7 +10,7 @@ package com.design.behavioralPatterns.visitorPattern;
  * @author 170186
  *
  */
-public class VisitorPattern {
+public class VisitorPatternDemo {
 
 	
 }
