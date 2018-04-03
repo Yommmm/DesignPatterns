@@ -9,7 +9,6 @@ public class RedShapeDecorator extends ShapeDecorator {
 	@Override
 	public void draw() {
 		decoratedShape.draw();
-		// this parameter is unused
 		setRedBorder(decoratedShape);
 	}
 

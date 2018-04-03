@@ -15,7 +15,7 @@ public class Meal {
 	
 	public float getCost() {
 		float cost = 0.0f;
-		for (Item item : items) {
+		for(Item item : items) {
 			cost += item.price();
 		}        
 		return cost;
