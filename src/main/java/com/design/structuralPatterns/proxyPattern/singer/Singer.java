@@ -5,13 +5,13 @@ package com.design.structuralPatterns.proxyPattern.singer;
  * @author 170186
  *
  */
-public class Zhang implements Sing {
+public class Singer implements Sing {
 
 	private String songName;
 	
 	private String agentName;
 	
-	public Zhang(String songName, String agentName) {
+	public Singer(String songName, String agentName) {
 		this.songName = songName;
 		this.agentName = agentName;
 		this.agent();

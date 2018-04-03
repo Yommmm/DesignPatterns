@@ -6,7 +6,7 @@ public class Agent implements Sing {
 	
 	private String agentName = "Liu";
 	
-	private Zhang zhang;
+	private Singer singer;
 
 	public Agent(String songName) {
 		this.songName = songName;
@@ -14,10 +14,10 @@ public class Agent implements Sing {
 
 	@Override
 	public void sing() {
-		if(null == zhang) {
-			zhang = new Zhang(songName, agentName);
+		if(null == singer) {
+			singer = new Singer(songName, agentName);
 		}
-		zhang.sing();
+		singer.sing();
 	}
 	
 	
