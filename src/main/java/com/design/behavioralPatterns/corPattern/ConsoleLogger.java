@@ -8,7 +8,7 @@ public class ConsoleLogger extends AbstractLogger {
 	
 	@Override
 	protected void write(String message) {
-		System.out.println(ConsoleLogger.class.getName() + message);
+		System.out.println("ConsoleLogger " + message);
 	}
 
 }

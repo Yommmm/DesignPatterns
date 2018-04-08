@@ -8,7 +8,7 @@ public class ErrorLogger extends AbstractLogger {
 	
 	@Override
 	protected void write(String message) {
-		System.out.println(ErrorLogger.class.getName() + message);
+		System.out.println("ErrorLogger " + message);
 	}
 
 }
